@@ -23,3 +23,10 @@ I hope you like PHP!
 My name is Derric B. Resultay
 
 HERE;
+
+
+$name = "Derric";
+
+echo "Hello, $name ";
+
+echo 'Hello, ' . $name . "!";
