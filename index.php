@@ -1,15 +1,23 @@
 <?php
 
 //$colors = array();
-$colors = array('Red', 'Green', 'Blue', 'Yellow');
-
+$colors = array("Red", "Green", "Blue", "Yellow");
+// prints the array
 print_r($colors);
 
 echo $colors[2];
 
+// This concatenates the word 'Purple' inside an array
 $colors[] = 'Purple';
 
+// what will happen if I try to assign new value to existing index with value
+$colors[0] = "Black"; 
+
+// Prints the array
 print_r($colors);
+// This is an error/warning, this is like telling the user to convert
+// an array into string
+echo $colors;
 
 $home_towns = array(
   'Joe' => 'Middletown, NY',
