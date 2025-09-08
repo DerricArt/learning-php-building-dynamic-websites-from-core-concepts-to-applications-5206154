@@ -21,3 +21,14 @@ $colors = ['red', 'green', 'blue', 'yellow'];
 for ($i = 0; $i < sizeof($colors); $i++) {
   echo $colors[$i] . "\n";
 }
+
+$a = 0;
+while ($a < 10) {
+  echo "$a\n";
+  $a++;
+}
+$a = 0;
+
+for ($i = 10; $a < $i; $i--) {
+  echo "$i\n";
+}
