@@ -20,3 +20,13 @@ switch ($turtle) {
 }
 
 echo "$bandana \n";
+
+$name = match ($turtle) {
+  'Leo' => 'Blue',
+  'Raph' => 'Red',
+  'Mike' => 'Orange',
+  'Don' => 'Purple',
+  default => 'Red'
+};
+
+echo $name;
