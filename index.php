@@ -17,10 +17,10 @@ $user_logged_in = false;
 if ($user_logged_in) {
   echo "Welcome back!";
 } else {
-  echo "Nice to meet you!";
+  echo "Nice to meet you!\n";
 }
 
-/*
+
 $i = 10;
 
 if (11 == $i) {
@@ -28,4 +28,3 @@ if (11 == $i) {
 } else {
   echo '<h3>Welcome to the site!</h3>';
 }
-*/
