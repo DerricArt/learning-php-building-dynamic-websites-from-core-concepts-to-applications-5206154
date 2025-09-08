@@ -8,3 +8,20 @@
  * 
  * Be sure to use additional parentesis to get the right results! 
  */
+
+$results = [];
+
+$results[0] = (14 + 82 - 32 / 2) ** 2;
+$results[1] = 18 * (3 / 6 - 9 ) * 10;
+$results[2] = 5 * ( 12 / 2 - 8 * 4 + 12 * 6 );
+
+print_r($results);
+
+// or you can do this just like library in python but this is called associative or indexable array in php
+$totals = [
+  0 => (14 + 82 - 32 / 2) ** 2,
+  1 => 18 * (3 / 6 - 9) * 10,
+  2 => 5 * (12 / 2 - 8 * 4 + 12 * 6)
+];
+
+print_r($totals);
